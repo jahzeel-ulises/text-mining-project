@@ -1,0 +1,31 @@
+# Ignorar entornos virtuales
+venv/
+.env/
+*.env
+
+# Ignorar archivos de configuración y dependencias
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Ignorar paquetes instalados localmente
+*.egg-info/
+*.egg
+*.whl
+dist/
+build/
+
+# Ignorar archivos de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Ignorar archivos de prueba y cobertura
+.coverage
+htmlcov/
+*.cover
+*.coverage.*
+
+# Ignorar archivos específicos de Jupyter Notebooks
+.ipynb_checkpoints/
